@@ -7,7 +7,6 @@ namespace NeuronAI;
 use GuzzleHttp\Promise\PromiseInterface;
 use NeuronAI\Chat\Messages\Message;
 use NeuronAI\Chat\Messages\ToolCallMessage;
-use NeuronAI\Exceptions\AgentException;
 use NeuronAI\Observability\Events\AgentError;
 use NeuronAI\Observability\Events\MessageSaved;
 use NeuronAI\Observability\Events\MessageSaving;
